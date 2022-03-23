@@ -1,0 +1,42 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body
+{
+    height: 100vh;
+    font-family: 'Poppins';
+    margin: 0;
+    padding: 0;
+    /* background: url('../static/bg.png') 50% 50%; */
+    background: #000;
+}
+
+.video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    opacity: 1;
+    /* border: 3px solid #f00; */
+    pointer-events: none;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    width: 92vh;
+    /* height: 40vh; */
+}
+.video video {
+    width: 100%;
+}
+.webgl
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    outline: none;
+}
